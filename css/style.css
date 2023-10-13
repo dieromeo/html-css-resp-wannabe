@@ -137,3 +137,25 @@ img {
         max-width: 1140px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .row {
+        display: block;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding-top: 48px;
+    }
+}
